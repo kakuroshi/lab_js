@@ -8,4 +8,4 @@ const y2 = 5
 const f_side = x2 - x1
 const s_side = y2 - y1
 
-console.log("Площадь прямоугольника:", f_side * s_side);
+console.log("Площадь прямоугольника:", Math.abs(f_side * s_side));
